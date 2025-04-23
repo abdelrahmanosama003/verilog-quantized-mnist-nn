@@ -1,3 +1,6 @@
+# verilog-quantized-mnist-nn
+Quantized MNIST neural network trained in PyTorch and deployed on FPGA using SystemVerilog. Includes fixed-point conversion, RTL implementation, and simulation via QuestaSim. Compares PyTorch and hardware inference for digit classification.
+
 # Quantized MNIST Neural Network - PyTorch & Verilog Simulation
 
 This repository demonstrates a PyTorch-trained, quantized neural network for MNIST digit classification, with a Verilog RTL implementation for hardware simulation using QuestaSim.
