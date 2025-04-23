@@ -1,0 +1,203 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dD:/Uni/Thesis/Neural Network v2/SIM
+T_opt
+!s110 1745425152
+VQ?@;10gF4T5n8Z24X86LT2
+04 17 4 work neural_network_tb fast 0
+=1-f875a41fcaaf-680912ff-29d-2e10
+R1
+!s12b OEM100
+!s124 OEM10U47 
+o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+R2
+vfully_connected_1
+Z4 2../RTL/fully_connected_1.sv|../RTL/fully_connected_2.sv|../RTL/fully_connected_output.sv|../RTL/neural_network_top.sv|../RTL/neuron.sv|../RTL/neuron2.sv
+Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z6 !s110 1745425303
+!i10b 1
+!s100 ^kNT78=mnM`ODmbgB^OiZ2
+IbnoSin8;ehZ>6EW=c=R^W2
+S1
+R2
+w1745192138
+8../RTL/fully_connected_1.sv
+F../RTL/fully_connected_1.sv
+!i122 56
+Z7 L0 1 230
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z10 !s108 1745425303.000000
+Z11 !s107 ../RTL/neuron2.sv|../RTL/neuron.sv|../RTL/neural_network_top.sv|../RTL/fully_connected_output.sv|../RTL/fully_connected_2.sv|../RTL/fully_connected_1.sv|
+Z12 !s90 -sv|../RTL/fully_connected_1.sv|../RTL/fully_connected_2.sv|../RTL/fully_connected_output.sv|../RTL/neural_network_top.sv|../RTL/neuron.sv|../RTL/neuron2.sv|
+!i113 0
+Z13 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vfully_connected_2
+R4
+R5
+R6
+!i10b 1
+!s100 Q[7c=XI_Y<loGjBVDHUZ>1
+Ic;G[L09JMUTPdT]c5Q[VK0
+S1
+R2
+w1745192148
+8../RTL/fully_connected_2.sv
+F../RTL/fully_connected_2.sv
+!i122 56
+R7
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R3
+vfully_connected_output
+R4
+R5
+R6
+!i10b 1
+!s100 B`l`dB3;YJ10LL^MNK?2b2
+I>0T:F5AD9;ZNFSE5Y]lEQ0
+S1
+R2
+w1745192143
+8../RTL/fully_connected_output.sv
+F../RTL/fully_connected_output.sv
+!i122 56
+L0 1 164
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R3
+vneural_network_tb
+2neural_network_tb.sv
+R5
+R6
+!i10b 1
+!s100 Na9XM4T3zj4jH8ADDM68J0
+Ig2`^1WFo2SXIT`nEk9z`11
+S1
+R2
+w1745170792
+8neural_network_tb.sv
+Fneural_network_tb.sv
+!i122 57
+L0 3 72
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 neural_network_tb.sv|
+!s90 -sv|neural_network_tb.sv|
+!i113 0
+R13
+R3
+vneural_network_top
+R4
+R5
+R6
+!i10b 1
+!s100 X4;OifzeDOUg85Xmb07>?2
+IO16HU7O03n2I^fCBnQ26>3
+S1
+R2
+w1745111634
+8../RTL/neural_network_top.sv
+F../RTL/neural_network_top.sv
+!i122 56
+L0 1 54
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R3
+vneuron
+R4
+R5
+R6
+!i10b 1
+!s100 EWhUm7c>0h`_bga?UE0@D1
+IXmYo[G2^3Bh`BBYPSGdgo3
+S1
+R2
+w1745337586
+8../RTL/neuron.sv
+F../RTL/neuron.sv
+!i122 56
+L0 1 62
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R3
+vneuron2
+R4
+R5
+R6
+!i10b 1
+!s100 R^9U18M_F;@=m;C1cEWkP1
+IHL<mme<3GjDioJm9?kS[_2
+S1
+R2
+w1745337602
+8../RTL/neuron2.sv
+F../RTL/neuron2.sv
+!i122 56
+L0 1 58
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R3
