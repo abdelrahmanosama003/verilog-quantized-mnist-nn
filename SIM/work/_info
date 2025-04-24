@@ -5,6 +5,8 @@ Z0 !s12c _opt
 Z1 !s99 nomlopt
 R0
 R1
+R0
+R1
 !s11f vlog 2023.3 2023.07, Jul 17 2023
 13
 !s112 1.1
@@ -14,10 +16,10 @@ R1
 cModel Technology
 Z2 dD:/Uni/Thesis/Neural Network v2/SIM
 T_opt
-!s110 1745425152
-VQ?@;10gF4T5n8Z24X86LT2
+!s110 1745520733
+VbjemV<Hb?[h2lO;eLlQDb0
 04 17 4 work neural_network_tb fast 0
-=1-f875a41fcaaf-680912ff-29d-2e10
+=1-f875a41fcaaf-680a885c-2a0-3504
 R1
 !s12b OEM100
 !s124 OEM10U47 
@@ -29,7 +31,7 @@ R2
 vfully_connected_1
 Z4 2../RTL/fully_connected_1.sv|../RTL/fully_connected_2.sv|../RTL/fully_connected_output.sv|../RTL/neural_network_top.sv|../RTL/neuron.sv|../RTL/neuron2.sv
 Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z6 !s110 1745425303
+Z6 !s110 1745520872
 !i10b 1
 !s100 ^kNT78=mnM`ODmbgB^OiZ2
 IbnoSin8;ehZ>6EW=c=R^W2
@@ -38,14 +40,14 @@ R2
 w1745192138
 8../RTL/fully_connected_1.sv
 F../RTL/fully_connected_1.sv
-!i122 56
+!i122 68
 Z7 L0 1 230
 Z8 VDg1SIo80bB@j0V0VzS_@n1
 Z9 OL;L;2023.3;77
 r1
 !s85 0
 31
-Z10 !s108 1745425303.000000
+Z10 !s108 1745520872.000000
 Z11 !s107 ../RTL/neuron2.sv|../RTL/neuron.sv|../RTL/neural_network_top.sv|../RTL/fully_connected_output.sv|../RTL/fully_connected_2.sv|../RTL/fully_connected_1.sv|
 Z12 !s90 -sv|../RTL/fully_connected_1.sv|../RTL/fully_connected_2.sv|../RTL/fully_connected_output.sv|../RTL/neural_network_top.sv|../RTL/neuron.sv|../RTL/neuron2.sv|
 !i113 0
@@ -63,7 +65,7 @@ R2
 w1745192148
 8../RTL/fully_connected_2.sv
 F../RTL/fully_connected_2.sv
-!i122 56
+!i122 68
 R7
 R8
 R9
@@ -88,7 +90,7 @@ R2
 w1745192143
 8../RTL/fully_connected_output.sv
 F../RTL/fully_connected_output.sv
-!i122 56
+!i122 68
 L0 1 164
 R8
 R9
@@ -113,7 +115,7 @@ R2
 w1745170792
 8neural_network_tb.sv
 Fneural_network_tb.sv
-!i122 57
+!i122 69
 L0 3 72
 R8
 R9
@@ -138,7 +140,7 @@ R2
 w1745111634
 8../RTL/neural_network_top.sv
 F../RTL/neural_network_top.sv
-!i122 56
+!i122 68
 L0 1 54
 R8
 R9
@@ -156,14 +158,14 @@ R4
 R5
 R6
 !i10b 1
-!s100 EWhUm7c>0h`_bga?UE0@D1
-IXmYo[G2^3Bh`BBYPSGdgo3
+!s100 W[FBgY8`GIlS1e5o>oN>:0
+INfUV55@k2@=DR?SF`6K7e2
 S1
 R2
-w1745337586
+w1745520707
 8../RTL/neuron.sv
 F../RTL/neuron.sv
-!i122 56
+!i122 68
 L0 1 62
 R8
 R9
@@ -181,14 +183,14 @@ R4
 R5
 R6
 !i10b 1
-!s100 R^9U18M_F;@=m;C1cEWkP1
-IHL<mme<3GjDioJm9?kS[_2
+!s100 ^elz<Q=CeUUS?>]Vd9hTz1
+IJB<^mcUC3_A1m]?^08e_a3
 S1
 R2
-w1745337602
+w1745520699
 8../RTL/neuron2.sv
 F../RTL/neuron2.sv
-!i122 56
+!i122 68
 L0 1 58
 R8
 R9

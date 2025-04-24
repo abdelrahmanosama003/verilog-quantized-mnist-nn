@@ -35,7 +35,7 @@ module neuron2 #(
             end else if (busy) begin
                 if (index < INPUT_SIZE) begin
                     accumulator <= accumulator + (inputs[index] * weights[index]);
-                    index <= index + 'd1;
+                    index <= index + logic'('b1);
                 end else begin
                     // Done with accumulation
                     busy <= 0;
@@ -47,7 +47,7 @@ module neuron2 #(
                 if (temp_result > 32'sd32767)
                     result <= 16'sd32767;
                 else if (temp_result < -32'sd32768)
-                    result <= -16'sd32768;
+                    result <= $signed(16'h8000);
                 else
                     result <= temp_result[15:0]; // Keep sign
                 done <= 0;
